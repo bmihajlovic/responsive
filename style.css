@@ -108,6 +108,11 @@ nav ul li a {
     float: right;
     padding-top: 15px;
 }
+.col ul li a.active {
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid #000000;
+}
 .col ul li {
     display: inline-block;
     margin-right: 40px;
@@ -322,12 +327,16 @@ main {
 }
 .klasa p {
     text-align: justify;
+    letter-spacing: 0.1px;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
 }
 .klasa h3 {
     margin-top: 60px;
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 .teachers {
     background-color: purple;
@@ -390,4 +399,3 @@ main {
     color: orange;
     text-shadow: 2px 2px 2px black;
 }
-.choose .col-4 
