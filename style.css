@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    line-height: 1.3;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-image: linear-gradient(rgba(153, 214, 255, 0.1), rgba(153, 214, 255, 0.1)), url(img/bckgPic.jpg!d);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/***** GRID *******/
+.row {
+    width: 100%;
+}
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 { width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+     float: left;
+}
+/*-----------------------*/
+
+header {
+    background: linear-gradient(rgba(255, 117, 26, 0.7), rgba(255, 117, 26, 0.4));
+}
+.header-naslov {
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+nav h3 {
+    font-size: 18px;
+    float: left;
+    padding-left: 10px;
+    color: white;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+/*-----------------------*/
+
+.travel {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+.travel .col {
+    flex: 1;
+    margin: 0px;
+}
+.travel .col h1 {
+    display: flex;
+    color: orange;
+    font-size: 2.4rem;
+    width: 15%;
+    float: left;
+    padding-left: 40px;
+}
+.travel h1 .fa-compass {
+    display: inline-block; 
+    font-size: 1.5rem;
+    align-self: center;
+    color: black;
+}
+.col ul {
+    float: right;
+    padding-top: 15px;
+}
+.col ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.col ul li a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.col ul li a:hover {
+    color: orange;
+    transition: 0.4s;
+}
+/*-----------------------*/
+
+main {
+    width: 90%;
+    margin: 35px auto;
+    padding: 3% 0 0 0;
+    box-shadow: 0 0 30px #888888;
+    padding-top: 0;
+}
+.druga-sekcija .slika {
+    background-image: url(img/Phuket-Thailand.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.druga-sekcija h3 {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: rgba(156, 179, 68, 0.6);
+}
+.druga-sekcija .text {
+    padding: 70px;
+    text-align: right;
+}
+.treca-sekcija .text {
+    padding: 70px;
+    text-align: left;
+}
+.treca-sekcija .slika {
+    background-image: url(img/turkey.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.treca-sekcija h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: rgba(156, 179, 68, 0.6);
+}
+.cetvrta-sekcija .text {
+    padding: 70px;
+    text-align: right;
+}
+.cetvrta-sekcija .slika {
+    background-image: url(img/South-Korea-1.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.cetvrta-sekcija h3 {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: rgba(156, 179, 68, 0.6);
+}
+.peta-sekcija .text {
+    padding: 70px;
+    text-align: right;
+}
+.peta-sekcija .text {
+    padding: 70px;
+    text-align: left;
+}
+.peta-sekcija .slika {
+    background-image: url(img/canda.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.peta-sekcija h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: rgba(156, 179, 68, 0.6);
+}
+.sesta-sekcija .text {
+    padding: 70px;
+    text-align: right;
+}
+.sesta-sekcija .slika {
+    background-image: url(img/serbia.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.sesta-sekcija h3 {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: rgba(156, 179, 68, 0.6);
+}
+.sedma-sekcija .text {
+    padding: 70px;
+    text-align: left;
+}
+.sedma-sekcija .slika {
+    background-image: url(img/sweden.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.sedma-sekcija h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: rgba(156, 179, 68, 0.6);
+}
+.osma-sekcija .text {
+    padding: 70px;
+    text-align: right;
+}
+.osma-sekcija .slika {
+    background-image: url(img/mexico.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.osma-sekcija h3 {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: rgba(156, 179, 68, 0.6);
+}
+.deveta-sekcija .text {
+    padding: 70px;
+    text-align: left;
+}
+.deveta-sekcija .slika {
+    background-image: url(img/nz.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.deveta-sekcija h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: rgba(156, 179, 68, 0.6);
+}
+/*-----------------------*/
+
+.backgroundText h2 {
+	font-size: 2.4rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+}
+.backgroundText h3 {
+    font-size: 2.2rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: orange;
+    text-shadow: 2px 2px 1px black;
+    margin-top: -40px;
+}
+.backgroundText p {
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: justify;
+    line-height: 30px; 
+    margin-bottom: 80px;
+}
+/*-----------------------*/
+
+.klasa {
+    text-align: center;
+    color: black;
+}
+.klasa p {
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.klasa h3 {
+    margin-top: 60px;
+}
+.teachers {
+    background-color: purple;
+    height: 200px;
+}
+.education {
+    background-color: aqua;
+    height: 200px;
+}
+.book {
+    background-color: greenyellow;
+    height: 200px;
+}
+.certification {
+    background-color: hotpink;
+    height: 200px;
+}
+
+.klasa .col-3 .slika1 {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: -40px;
+    background-color: white;
+    border-radius: 90%;
+    padding: 10px 10px;
+ 
+}
+.klasa .col-3 .slika2 {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: -40px;
+    background-color: white;
+    border-radius: 90%;
+    padding: 10px 10px;
+}
+.klasa .col-3 .slika3 {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: -40px;
+    background-color: white;
+    border-radius: 90%;
+    padding: 10px 10px;
+}
+.klasa .col-3 .slika4 {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -45px;
+    background-color: white;
+    border-radius: 90%;
+    padding: 10px 10px;
+}
+/*-----------------------*/
+
+.choose h2 {
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 70px;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+}
+.choose .col-4 
