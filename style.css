@@ -108,7 +108,7 @@ nav ul li a {
     float: right;
     padding-top: 15px;
 }
-.col ul li a.active {
+.col ul li a.active {  /*oznacena stranica koja je trenutno posecena*/
     cursor: pointer;
     color: black;
     border-bottom: 2px solid #000000;
@@ -317,13 +317,19 @@ main {
     padding-right: 80px;
     text-align: justify;
     line-height: 30px; 
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+}
+.backgroundText p span {
+    color: orange;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 2px black;
 }
 /*-----------------------*/
 
 .klasa {
     text-align: center;
     color: black;
+    padding-top: 90px;
 }
 .klasa p {
     text-align: justify;
@@ -334,7 +340,7 @@ main {
 }
 .klasa h3 {
     margin-top: 60px;
-    font-size: 1.4rem;
+    font-size: 1.4rem;  /*velicina naslova u svakoj klasi*/
     color: white;
     text-shadow: 2px 2px 2px black;
 }
@@ -390,6 +396,13 @@ main {
 }
 /*-----------------------*/
 
+.choose {
+    background-image: url(img/dest2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .choose h2 {
     font-size: 2.4rem;
     font-family: sans-serif;
@@ -398,4 +411,19 @@ main {
     padding-top: 70px;
     color: orange;
     text-shadow: 2px 2px 2px black;
+    margin-bottom: -30px;
+}
+.choose .col-4 i {
+    font-size: 2rem;
+    color: black;
+}
+.choose .destinations h3,
+.choose .budget h3,
+.choose .experience h3 {
+    margin-top: 20px;
+}
+.choose .destinations p,
+.choose .budget p,
+.choose .experience p {
+    margin-top: 15px;
 }
