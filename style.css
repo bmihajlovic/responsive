@@ -150,6 +150,13 @@ main {
     border: 2px solid black;
     background: rgba(156, 179, 68, 0.6);
 }
+.druga-sekcija h3:hover {
+    cursor: pointer;
+    background: rgba(156, 179, 68, 0.3);
+    border: 1px solid black;
+    border-radius: 8%;
+    text-shadow: 1px 1px 2px white;
+}
 .druga-sekcija .text {
     padding: 70px;
     text-align: right;
@@ -173,6 +180,13 @@ main {
     border: 2px solid black;
     background: rgba(156, 179, 68, 0.6);
 }
+.treca-sekcija h3:hover {
+    cursor: pointer;
+    background: rgba(156, 179, 68, 0.3);
+    border: 1px solid black;
+    border-radius: 8%;
+    text-shadow: 1px 1px 2px white;
+}
 .cetvrta-sekcija .text {
     padding: 70px;
     text-align: right;
@@ -191,6 +205,13 @@ main {
     padding: 10px 20px;
     border: 2px solid black;
     background: rgba(156, 179, 68, 0.6);
+}
+.cetvrta-sekcija h3:hover {
+    cursor: pointer;
+    background: rgba(156, 179, 68, 0.3);
+    border: 1px solid black;
+    border-radius: 8%;
+    text-shadow: 1px 1px 2px white;
 }
 .peta-sekcija .text {
     padding: 70px;
@@ -215,6 +236,13 @@ main {
     border: 2px solid black;
     background: rgba(156, 179, 68, 0.6);
 }
+.peta-sekcija h3:hover {
+    cursor: pointer;
+    background: rgba(156, 179, 68, 0.3);
+    border: 1px solid black;
+    border-radius: 8%;
+    text-shadow: 1px 1px 2px white;
+}
 .sesta-sekcija .text {
     padding: 70px;
     text-align: right;
@@ -233,6 +261,13 @@ main {
     padding: 10px 20px;
     border: 2px solid black;
     background: rgba(156, 179, 68, 0.6);
+}
+.sesta-sekcija h3:hover {
+    cursor: pointer;
+    background: rgba(156, 179, 68, 0.3);
+    border: 1px solid black;
+    border-radius: 8%;
+    text-shadow: 1px 1px 2px white;
 }
 .sedma-sekcija .text {
     padding: 70px;
@@ -253,6 +288,13 @@ main {
     border: 2px solid black;
     background: rgba(156, 179, 68, 0.6);
 }
+.sedma-sekcija h3:hover {
+    cursor: pointer;
+    background: rgba(156, 179, 68, 0.3);
+    border: 1px solid black;
+    border-radius: 8%;
+    text-shadow: 1px 1px 2px white;
+}
 .osma-sekcija .text {
     padding: 70px;
     text-align: right;
@@ -271,6 +313,13 @@ main {
     padding: 10px 20px;
     border: 2px solid black;
     background: rgba(156, 179, 68, 0.6);
+}
+.osma-sekcija h3:hover {
+    cursor: pointer;
+    background: rgba(156, 179, 68, 0.3);
+    border: 1px solid black;
+    border-radius: 8%;
+    text-shadow: 1px 1px 2px white;
 }
 .deveta-sekcija .text {
     padding: 70px;
@@ -291,8 +340,23 @@ main {
     border: 2px solid black;
     background: rgba(156, 179, 68, 0.6);
 }
+.deveta-sekcija h3:hover {
+    cursor: pointer;
+    background: rgba(156, 179, 68, 0.3);
+    border: 1px solid black;
+    border-radius: 8%;
+    text-shadow: 1px 1px 2px white;
+}
 /*-----------------------*/
 
+.backgroundText {
+    width: 90%;
+    margin: 35px auto;
+    padding: 3% 0 0 0;
+    box-shadow: 0 0 30px #888888;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
 .backgroundText h2 {
 	font-size: 2.4rem;
     font-family: sans-serif;
@@ -320,16 +384,29 @@ main {
     margin-bottom: 50px;
 }
 .backgroundText p span {
-    color: orange;
+    color: forestgreen;
     font-size: 1.4rem;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 2px black;
+}
+.img-position img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.82;
+    margin-bottom: 70px;
+    width: 100%;
 }
 /*-----------------------*/
 
 .klasa {
     text-align: center;
     color: black;
-    padding-top: 90px;
+    width: 90%;
+    margin: 35px auto;
+    padding: 3% 0 0 0;
+    box-shadow: none;
+    padding-top: 20px;
 }
 .klasa p {
     text-align: justify;
@@ -346,18 +423,22 @@ main {
 }
 .teachers {
     background-color: purple;
+    opacity: 0.8;
     height: 200px;
 }
 .education {
     background-color: aqua;
+    opacity: 0.8;
     height: 200px;
 }
 .book {
     background-color: greenyellow;
+    opacity: 0.8;
     height: 200px;
 }
 .certification {
     background-color: hotpink;
+    opacity: 0.8;
     height: 200px;
 }
 
@@ -396,26 +477,19 @@ main {
 }
 /*-----------------------*/
 
-.choose {
-    background-image: url(img/dest2.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .choose h2 {
     font-size: 2.4rem;
     font-family: sans-serif;
     text-decoration: none;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
     color: orange;
     text-shadow: 2px 2px 2px black;
-    margin-bottom: -30px;
+    margin-bottom: -10px;
 }
 .choose .col-4 i {
     font-size: 2rem;
-    color: black;
+    color: white;;
 }
 .choose .destinations h3,
 .choose .budget h3,
