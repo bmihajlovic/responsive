@@ -424,22 +424,22 @@ main {
 .teachers {
     background-color: purple;
     opacity: 0.8;
-    height: 200px;
+    height: 240px;
 }
 .education {
     background-color: aqua;
     opacity: 0.8;
-    height: 200px;
+    height: 240px;
 }
 .book {
     background-color: greenyellow;
     opacity: 0.8;
-    height: 200px;
+    height: 240px;
 }
 .certification {
     background-color: hotpink;
     opacity: 0.8;
-    height: 200px;
+    height: 240px;
 }
 
 .klasa .col-3 .slika1 {
@@ -489,7 +489,8 @@ main {
 }
 .choose .col-4 i {
     font-size: 2rem;
-    color: white;;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 .choose .destinations h3,
 .choose .budget h3,
@@ -501,3 +502,4 @@ main {
 .choose .experience p {
     margin-top: 15px;
 }
+
