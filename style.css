@@ -48,89 +48,7 @@ body {
 header {
     background: linear-gradient(rgba(255, 117, 26, 0.7), rgba(255, 117, 26, 0.4));
 }
-/*
-.header-naslov {
-    color: white;
-    font-size: 14px;
-    font-family: sans-serif;
-    text-decoration: none;
-}
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
-}
-nav h3 {
-    font-size: 18px;
-    float: left;
-    padding-left: 10px;
-    color: white;
-}
-nav ul {
-    display: flex;
-    align-items: center;
-}
-nav ul li {
-    list-style: none;
-}
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    font-family: sans-serif;
-    margin-left: 10px;
-    text-transform: uppercase;
-    margin-right: 25px;
-}
-*/
-/*-----------------------*/
 
-.travel {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin-top: 30px;
-}
-.travel .col {
-    flex: 1;
-    margin: 0px;
-}
-.travel .col h1 {
-    display: flex;
-    color: orange;
-    font-size: 2.4rem;
-    width: 15%;
-    float: left;
-    padding-left: 40px;
-}
-.travel h1 .fa-compass {
-    display: inline-block; 
-    font-size: 1.5rem;
-    align-self: center;
-    color: black;
-}
-.col ul {
-    float: right;
-    padding-top: 15px;
-}
-.col ul li a.active {  /*oznacena stranica koja je trenutno posecena*/
-    cursor: pointer;
-    color: black;
-    border-bottom: 2px solid #000000;
-}
-.col ul li {
-    display: inline-block;
-    margin-right: 40px;
-}
-.col ul li a {
-    color: black;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.col ul li a:hover {
-    color: orange;
-    transition: 0.4s;
-}
 /*-----------------------*/
 
 main {
@@ -171,7 +89,7 @@ main {
     text-align: left;
 }
 .treca-sekcija .slika {
-    background-image: url(img/turkey.jpg);
+    background-image: url(img/kaputas-beach-turkey.jpg);
     height: 350px;
     background-size: cover;
     background-position: center;
