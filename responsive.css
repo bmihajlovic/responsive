@@ -1,43 +1,50 @@
 /* Style the navigation menu */
 .topnav {
-  overflow: hidden;
-  position: relative;
+    overflow: hidden;
+    position: relative;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
-  display: none;
+    display: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-shadow: 2px 1px 1px black;
 }
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 18px;
-  display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 2px;
+    display: block;
+    text-shadow: 1px 1px 1px black;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+    background: #42748f;
+    text-shadow: 2px 2px 2px black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .topnav a:hover {
-  color: orange;
-  transition: 0.4s;
+    color: orange;
+    transition: 0.4s;
 }
 
 .active {
-  color: white;
+    color: white;
 }
 
 .topnav .active {
-  cursor: pointer;
-  color: black;
-  border-bottom: 2px solid #000000;
+    cursor: pointer;
+    color: #42748f;
+    border-bottom: 2px solid #42748f;
 }
